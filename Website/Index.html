@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terminal | Shadowlona-dev.de</title>
-    <link rel="stylesheet" href="css/terminal.css" type="text/css"/>
-    <script src="js/terminal.js"></script>
+    <link rel="stylesheet" href="css/terminal.css" type="text/css" />
 </head>
+
 <body>
     <div class="container">
         <div class="terminal-header">
-			<p>Header</p>	
+            <p>https://jig356.github.io/Website</p>
+            <div class="terminal-links">
+            </div>
         </div>
-        <div class="terminal-content">
-			<p>click for free bobux</p>
-			<a href="https://youtu.be/qzEuVvge3eU" target="_blank">
-			<img src="img/1.png" height="300" width="300"/> 
-			</a>
+        <div class="terminal-console">
+            <div class="terminal-output">
+                <pre id="output">
+Version 0.0.3 - Build 192417032022
+                </pre>
+            </div>
+            <div class="terminal-input">
+                <span>user@https://jig356.github.io/Website:-$</span>
+                <span id="input" contenteditable="true"></span>
+            </div>
+            <div id="javascriptError">
+                <p>Something went wrong with javascript!</p>
+            </div>
         </div>
-        <div class="terminal-footer">
-            <p>footer</p>
-        </div>
+        <img id="scanlines" src="lines.png" class="noselect" alt="">
     </div>
+    <script src="js/terminal.js"></script>
 </body>
-</html>
