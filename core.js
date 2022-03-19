@@ -108,10 +108,6 @@ var t = setInterval(() => {
     }
 }, 20);
 
-terminal_animate("\nI LOVE MEN");
-terminal_animate("\n I FUCKING LOVE MEN.");
-terminal_animate("\n I DON'T KNOW WHAT THIS SHIT DOES");
-terminal_animate("\n I DON'T KNOW WHY YOU'RE HERE");
-terminal_animate("\n LEAVE\n");
-terminal_animate("\n © NOT ME 2022\n\n----- Terminal -----\n");
-terminal_animate("\nWRITE SOME SHIT\nIDK WRITE HELP OR SM SHIT\n");
+terminal_animate("\n Website style and animations made by Shadowlona");
+terminal_animate("\n Write "help" for a list of commands);
+terminal_animate("\n © Shadowlona 2022)
