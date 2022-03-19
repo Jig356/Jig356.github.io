@@ -109,5 +109,5 @@ var t = setInterval(() => {
 }, 20);
 
 terminal_animate("\n Website style and animations made by Shadowlona");
-terminal_animate("\n Write "help" for a list of commands");
+terminal_animate("\n Write help for a full list of commands");
 terminal_animate("\n © Shadowlona 2022");
