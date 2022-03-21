@@ -34,7 +34,7 @@ function checkKeyPress(key) {
         if (input.innerHTML !== "") {
             response = terminal_run(input.innerHTML)
             if (input.innerHTML != "clear") {
-                terminal_animate("\nuser@terminal.shadowlona-dev.de:-$ " + response);
+                terminal_animate("\nuser@jig356.github.io:-$ " + response);
                 //output.innerHTML += "\nuser@terminal.shadowlona-dev.de:-$ " + response
             }
             cacheIndex = cache.length + 1;
@@ -78,7 +78,7 @@ function checkKeyPress(key) {
 function terminal_run(input) {
     let response = "";
     if (input == "help") {
-        response = "\n----- Command Help -----\nMAYO\nstatus\nclear\nexit\negg\n "
+        response = "\n----- Command Help -----\nMAYO\nstatus\nclear\nexit\loli\n "
     } else if (input == "MAYO") {
         window.location.replace("https://www.youtube.com/watch?v=qzEuVvge3eU")
     } else if (input == "status") {
@@ -87,8 +87,8 @@ function terminal_run(input) {
         output.innerHTML = "";
     } else if (input == "exit") {
         window.location.replace("https://shadowlona.dev/");
-    } else if (input == "egg") {
-        window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    } else if (input == "loli") {
+        window.location.replace("https://www.fbi.gov/tips");
     } else {
         response = "\nThis is no valid command!\n"
     }
