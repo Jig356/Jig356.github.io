@@ -78,7 +78,7 @@ function checkKeyPress(key) {
 function terminal_run(input) {
     let response = "";
     if (input == "help") {
-        response = "\n----- Command Help -----\nMAYO\nstatus\nclear\nexit\loli\n "
+        response = "\n----- Command Help -----\nMAYO\nstatus\nclear\nexit\nloli\n "
     } else if (input == "MAYO") {
         window.location.replace("https://www.youtube.com/watch?v=qzEuVvge3eU")
     } else if (input == "status") {
