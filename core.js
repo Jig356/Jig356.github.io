@@ -34,7 +34,7 @@ function checkKeyPress(key) {
         if (input.innerHTML !== "") {
             response = terminal_run(input.innerHTML)
             if (input.innerHTML != "clear") {
-                terminal_animate("\nuser@jig356.github.io:-$ " + response + "_");
+                terminal_animate("\nuser@jig356.github.io:-$ " + response + "hello");
                 //output.innerHTML += "\nuser@terminal.shadowlona-dev.de:-$ " + response
             }
             cacheIndex = cache.length + 1;
