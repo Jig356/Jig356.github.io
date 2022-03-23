@@ -92,7 +92,7 @@ function terminal_run(input) {
     } else {
         response = "\nThis is not a valid command!\n"
     }
-    return input + "_" + response;
+    return input + response;
 }
 var animateText = " ";
 
