@@ -34,7 +34,7 @@ function checkKeyPress(key) {
         if (input.innerHTML !== "") {
             response = terminal_run(input.innerHTML)
             if (input.innerHTML != "clear") {
-                terminal_animate("\nuser@jig356.github.io:-$ " + response + "hello");
+                terminal_animate("\nuser@jig356.github.io:-$ " + response);
                 //output.innerHTML += "\nuser@terminal.shadowlona-dev.de:-$ " + response
             }
             cacheIndex = cache.length + 1;
@@ -92,7 +92,7 @@ function terminal_run(input) {
     } else {
         response = "\nThis is not a valid command!\n"
     }
-    return input + response;
+    return input + "_" + response;
 }
 var animateText = " ";
 
