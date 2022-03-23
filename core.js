@@ -6,11 +6,11 @@ elem.parentNode.removeChild(elem);
 
 // dev-tools checker
 
-window.onresize = function() {
-    if ((window.outerHeight - window.innerHeight) > 100) {
-        window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    }
-}
+//window.onresize = function() {
+    //if ((window.outerHeight - window.innerHeight) > 100) {
+        //window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    //}
+//}
 
 
 // terminal checker
@@ -24,9 +24,9 @@ function checkKeyPress(key) {
     let output = document.getElementById("output")
 
     // F12
-    if (key.keyCode == "123") {
-        window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
-    }
+    //if (key.keyCode == "123") {
+        //window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+    //}
 
     // Enter
 
@@ -81,8 +81,8 @@ function terminal_run(input) {
         response = "\n----- Command Help -----\nMAYO\nstatus\nclear\nexit\nloli\n "
     } else if (input == "MAYO") {
         window.location.replace("https://www.youtube.com/watch?v=qzEuVvge3eU")
-    } else if (input == "status") {
-        response = "\n----- Status -----\nIn build\n "
+    } else if (input == "SUS") {
+        response = "\n⡯⡯⡾⠝⠘⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢊⠘⡮⣣⠪\n⠟⠝⠈⠀⠀⠀⠡⠀⠠⢈⠠⢐⢠⢂⢔⣐⢄⡂⢔⠀⡁⢉⠸⢨\n "
     } else if (input == "clear") {
         output.innerHTML = "";
     } else if (input == "exit") {
