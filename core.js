@@ -86,7 +86,7 @@ function terminal_run(input) {
     } else if (input == "clear") {
         output.innerHTML = "";
     } else if (input == "exit") {
-        window.location.replace("https://shadowlona.dev/");
+        window.location.replace("https://youtu.be/-cT20tlPU3s");
     } else if (input == "loli") {
         window.location.replace("https://www.fbi.gov/tips");
     } else {
